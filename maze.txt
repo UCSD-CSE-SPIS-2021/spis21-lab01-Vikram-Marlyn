@@ -1,0 +1,15 @@
+#State 0's mission is to go east 
+0 *x** -> E 3 
+0 *E** -> X 1 
+
+#State 1's mission is to go north
+1 x*** -> N 0 
+1 N*** -> X 2 
+
+#State 2's mission is to go west 
+2 **x* -> W 1 
+2 **w* -> X 3 
+
+#State 3's mission is to south
+3 ***x -> S 2 
+3 ***S -> X 0
